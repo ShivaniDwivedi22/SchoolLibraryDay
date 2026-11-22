@@ -2,7 +2,8 @@
 // and the events (with phone alerts, plus email reminders where supported)
 // sync to Google Calendar everywhere.
 
-import * as Calendar from 'expo-calendar';
+// The legacy API also works inside Expo Go (the newer object API does not).
+import * as Calendar from 'expo-calendar/legacy';
 
 import { at, ISODate, parseHHMM, toISO } from './core/dates';
 import { tasksBetween } from './core/plan';
@@ -14,9 +15,9 @@ const MARK = '[school-reminder:';
 export type CalendarChoice = { id: string; label: string; email: boolean };
 
 export async function writableCalendars(): Promise<CalendarChoice[]> {
-  const perm = await Calendar.requestCalendarPermissions();
+  const perm = await Calendar.requestCalendarPermissionsAsync();
   if (!perm.granted) throw new Error('Calendar permission was not granted');
-  const cals = await Calendar.getCalendars(Calendar.EntityTypes.EVENT);
+  const cals = await Calendar.getCalendarsAsync(Calendar.EntityTypes.EVENT);
   return cals
     .filter((c) => c.allowsModifications)
     .map((c) => ({
@@ -39,9 +40,9 @@ export async function syncCalendar(s: Settings, state: AppState, cal: SchoolCale
                                    today: ISODate = toISO(new Date())) {
   const cs = s.calendarSync;
   if (!cs.enabled || !cs.calendarId) return { added: 0, updated: 0, removed: 0 };
-  const perm = await Calendar.getCalendarPermissions();
+  const perm = await Calendar.getCalendarPermissionsAsync();
   if (!perm.granted) throw new Error('Calendar permission is off. Allow it in phone Settings.');
-  const target = await Calendar.ExpoCalendar.get(cs.calendarId);
+  const calendarId = cs.calendarId;
   const end = cal.lastDay && cal.lastDay >= today ? cal.lastDay : today;
   const eventStart = parseHHMM(cs.eventTime) ?? 8 * 60;
 
@@ -74,7 +75,7 @@ export async function syncCalendar(s: Settings, state: AppState, cal: SchoolCale
     });
   }
 
-  const existing = await target.listEvents(at(today, 0), at(end, 24 * 60 - 1));
+  const existing = await Calendar.getEventsAsync([calendarId], at(today, 0), at(end, 24 * 60 - 1));
   let added = 0, updated = 0, removed = 0;
   const seen = new Set<string>();
   for (const ev of existing) {
@@ -83,17 +84,17 @@ export async function syncCalendar(s: Settings, state: AppState, cal: SchoolCale
     const [, key, sig] = m;
     const w = wanted.get(key);
     if (!w || seen.has(key)) {
-      await ev.delete();
+      await Calendar.deleteEventAsync(ev.id);
       removed++;
     } else if (w.sig !== sig) {
-      await ev.update(w.details);
+      await Calendar.updateEventAsync(ev.id, w.details);
       updated++;
     }
     seen.add(key);
   }
   for (const [key, w] of wanted) {
     if (seen.has(key)) continue;
-    await target.createEvent(w.details);
+    await Calendar.createEventAsync(calendarId, w.details);
     added++;
   }
   return { added, updated, removed };
