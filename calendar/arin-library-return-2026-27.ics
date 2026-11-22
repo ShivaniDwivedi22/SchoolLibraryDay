@@ -1,0 +1,537 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SchoolLibraryDay//School Day Reminder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:School reminders
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arin-return-20261124@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20261124T080000
+DTEND;TZID=America/Toronto:20261124T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20261201@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20261201T080000
+DTEND;TZID=America/Toronto:20261201T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20261208@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20261208T080000
+DTEND;TZID=America/Toronto:20261208T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20261215@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20261215T080000
+DTEND;TZID=America/Toronto:20261215T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270105@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270105T080000
+DTEND;TZID=America/Toronto:20270105T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270112@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270112T080000
+DTEND;TZID=America/Toronto:20270112T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270119@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270119T080000
+DTEND;TZID=America/Toronto:20270119T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270127@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270127T080000
+DTEND;TZID=America/Toronto:20270127T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270203@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270203T080000
+DTEND;TZID=America/Toronto:20270203T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270210@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270210T080000
+DTEND;TZID=America/Toronto:20270210T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270218@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270218T080000
+DTEND;TZID=America/Toronto:20270218T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270225@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270225T080000
+DTEND;TZID=America/Toronto:20270225T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270304@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270304T080000
+DTEND;TZID=America/Toronto:20270304T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270311@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270311T080000
+DTEND;TZID=America/Toronto:20270311T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270325@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270325T080000
+DTEND;TZID=America/Toronto:20270325T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270405@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270405T080000
+DTEND;TZID=America/Toronto:20270405T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270412@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270412T080000
+DTEND;TZID=America/Toronto:20270412T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270419@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270419T080000
+DTEND;TZID=America/Toronto:20270419T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270426@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270426T080000
+DTEND;TZID=America/Toronto:20270426T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270503@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270503T080000
+DTEND;TZID=America/Toronto:20270503T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270510@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270510T080000
+DTEND;TZID=America/Toronto:20270510T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270517@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270517T080000
+DTEND;TZID=America/Toronto:20270517T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270525@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270525T080000
+DTEND;TZID=America/Toronto:20270525T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270601@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270601T080000
+DTEND;TZID=America/Toronto:20270601T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270609@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270609T080000
+DTEND;TZID=America/Toronto:20270609T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270616@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270616T080000
+DTEND;TZID=America/Toronto:20270616T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arin-return-20270623@schoollibraryday
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=America/Toronto:20270623T080000
+DTEND;TZID=America/Toronto:20270623T081500
+SUMMARY:Arin: library book return day
+DESCRIPTION:Cycle Day 3. Pack the library book and its bag.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Arin's library book return day. Pack the library book and its bag tonight.
+TRIGGER:-PT13H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Today is Arin's library book return day. Don't forget the library book and its bag.
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
