@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "School Day",
+    "slug": "school-day-reminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.schoollibraryday.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["processing"]
+      }
+    },
+    "android": {
+      "package": "com.schoollibraryday.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#2563EB",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-background-task",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-notifications",
+        { "color": "#2563EB" }
+      ],
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "School Day adds library and school days to your calendar so you get reminders on all your devices."
+        }
+      ]
+    ]
+  }
+}
